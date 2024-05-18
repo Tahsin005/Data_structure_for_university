@@ -17,3 +17,10 @@ int main () {
     }
     return 0;
 }
+/*
+    Start with the second element: The first element is considered already sorted.
+    Compare with sorted elements: Take the current element and compare it with the elements in the sorted portion of the list.
+    Shift elements if necessary: Shift all elements in the sorted portion that are greater than the current element to the right.
+    Insert the current element: Insert the current element into its correct position.
+    Move to the next element: Repeat the process for the next element until the entire list is sorted.
+*/

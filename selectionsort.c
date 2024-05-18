@@ -20,3 +20,10 @@ int main () {
     }
     return 0;
 }
+/*
+Start with the first element: Initialize a loop to iterate over the list.
+Find the minimum element: For the current position, find the smallest element in the unsorted portion of the list.
+Swap if necessary: Swap this minimum element with the element at the current position.
+Move to the next position: Move to the next position in the list and repeat the process until the entire list is sorted.
+
+*/
